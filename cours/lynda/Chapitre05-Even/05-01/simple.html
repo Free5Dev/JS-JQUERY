@@ -17,6 +17,23 @@
 		<li>Deux paragraphes</li>
 		<li>Une liste non ordonnée</li>
 	</ul>
-    <button id="unBouton">Cliquez-moi !</button>
+	<!-- gestion des evenements en javaascript -->
+	<!-- <button id="unBouton" onclick="alert('Bonjour Tout le monde');">Cliquez-moi !</button> -->
+	<!-- cecla peut s'ecrire aussi comme suite -->
+	<button id="unBouton">Cliquez-moi !</button>
+	<button id="Bouton">bouton !</button>
+	<script>
+	
+		myBoutton=document.getElementById('Bouton');
+		myBoutton.onclick=function(){
+		 	alert("Bonjour sava?");
+		};
+		myButton=document.getElementById('unBouton');
+		// methode avec addEvenListener
+		myButton.addEventListener("click",call,false);//prend 3 valeurs ,le click,l'appel de la function , et toujours false
+		function call(){
+			alert("Bonjour je suis un add event listener alert");
+		}
+	</script>
 </body>
 </html>

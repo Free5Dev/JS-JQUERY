@@ -18,7 +18,10 @@
 		<li>Une liste non ordonnée</li>
 	</ul>
     <script>
-        var myList = document.getElementById('unordered');
+		var myList = document.getElementById('unordered');
+		console.log(myList.style);
+		myList.style.color="red";//myList.style.color="#FF000"; ça marche aussi avec rgba
+		myList.style.backgroundColor="black";
     </script>
 </body>
 </html>

@@ -8,7 +8,7 @@ function preparePage() {
         }
 	};
 }
-
+//on attend qua la page fini de la charger
 window.onload =  function() {
 	preparePage();
 };

@@ -1,0 +1,13 @@
+[
+    {
+        "first_name": "said",
+        "last_name": "soumah",
+        "birthday": "22/11",
+        "age": "27",
+        "adresse": {
+            "city": "Vitry-sur-seine",
+            "zip_code": "94400"
+        },
+        "active": "true"
+    }
+]
